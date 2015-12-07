@@ -1,0 +1,21 @@
+{
+  "name": "shanxiuxia",/**项目名称*/
+  "description": "this is about node-webkit and angularjs demo", /**项目的描述*/
+  "version": "0.0.1",/**项目版本*/
+  "main": "index.html",/**项目启动的时候*/
+  "window": {/**项目窗体设置*/
+    "title": "first Demo",/**窗体title*/
+    "toolbar": false,/**窗体是否显示地址栏信息,开发的时候建议这里填写true,方便*/
+    "resizable" : false,/**是否可以最大化*/
+    "always-on-top" : true,/**是否一直在最上面*/
+    "fullscreen" : false,/**初始化显示的时候是否全屏*/
+    "position": "center",/**初始化显示的时候的位置*/
+    "width": 800,/**窗口的宽度*/
+    "height": 600/**窗口的高度*/
+  },
+  "dependencies": {
+    "mysql": "2.0.1",
+    "mysql-queues": "1.0.0",
+    "async": "0.2.10"
+  }
+}
